@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DINPro';
+    src: url('../fonts/DINPro_Light.otf');
+}
+@font-face {
+    font-family: 'Neufile_Grotesk';
+    src: url('../fonts/NeufileGrotesk_LightItalic.ttf');
+}
+@font-face {
+    font-family: 'Neufile_Grotesk_Medium';
+    src: url('../fonts/NeufileGrotesk_Medium.ttf');
+}
