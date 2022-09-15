@@ -1,21 +1,26 @@
-body{
-    background-image: url('../images/Fondo.png') ;
-    background-attachment: fixed;  
+body {
+    background-image: url('../images/Fondo.png');
+    background-attachment: fixed;
 }
-.section{
+
+.section {
     background: transparent linear-gradient(180deg, #2D2A2689 0%, #2D2A26 100%) 0% 0% no-repeat padding-box;
     opacity: 1;
 }
-.text-orange{
+
+.text-orange {
     color: #F15D3B;
 }
-.text-white{
+
+.text-white {
     color: #FFFFFF;
 }
-.text-white-2{
+
+.text-white-2 {
     color: #E5E5E5;
 }
-.button-bruker{
+
+.button-bruker {
     height: 70px;
     width: 250px;
     background: #2D2A26 0% 0% no-repeat padding-box;
@@ -26,31 +31,36 @@ body{
     color: #FFFFFF;
     transition: background-color 0.5s ease-out 50ms
 }
-.button-bruker:hover{
+
+.button-bruker:hover {
     background: #FFFFFF 0% 0% no-repeat padding-box !important;
     box-shadow: 0px 0px 10px #F15D3B5C !important;
     border: 1px solid #F15D3B !important;
     color: black;
 }
-.title{
+
+.title {
     text-align: left;
     font: normal normal 300 70px/91px 'DINPro';
     letter-spacing: 0px;
     opacity: 1;
 }
-.subtitle{
+
+.subtitle {
     text-align: left;
     font: normal normal 300 20px/24px 'Neufile_Grotesk';
     letter-spacing: 0px;
 }
-.card-color{
+
+.card-color {
     background: #AEAFB233 0% 0% no-repeat padding-box;
     border-radius: 10px;
     opacity: 1;
     backdrop-filter: blur(30px);
     margin: auto;
 }
-.float{
+
+.float {
     width: 65px;
     height: 65px;
     border-radius: 50%;
@@ -58,43 +68,47 @@ body{
     box-shadow: 0px 0px 20px #49CE2955;
     border: 2px solid #49CE29;
     opacity: 1;
-    position:fixed;
-    bottom:70px;
-	right:40px;
-    text-align:center;
-    z-index:100;
+    position: fixed;
+    bottom: 70px;
+    right: 40px;
+    text-align: center;
+    z-index: 100;
     transition: border 0.1s ease-out 50ms
 }
-.float:hover{
+
+.float:hover {
     border: 5px solid #49CE29;
     box-shadow: 0px 0px 20px #4ace2998;
 }
-.float:hover img{
+
+.float:hover img {
     margin-left: 30%;
     filter: invert(100%) brightness(40%) sepia(100%) hue-rotate(100deg) saturate(1000%) contrast(0.8) !important;
 }
 
-.float img{
+.float img {
     margin-left: 35%;
     width: 70%;
 }
-.modal-content{
+
+.modal-content {
     border: 2px solid #F15D3B !important;
     border-radius: 30px;
 }
 
-.modal-content h1{
+.modal-content h1 {
     font: normal normal 300 46px/59px 'DINPro';
 }
 
-.modal-content input{
+.modal-content input {
     border-radius: 15px;
 }
 
-.modal-content textarea{
+.modal-content textarea {
     border-radius: 15px;
 }
-.modal-content button{
+
+.modal-content button {
     height: 45px;
     width: 250px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -105,8 +119,13 @@ body{
     color: black;
     transition: background-color 0.5s ease-out 50ms
 }
-.modal-content button:hover{
+
+.modal-content button:hover {
     background: #2D2A26 0% 0% no-repeat padding-box !important;
     box-shadow: 0px 0px 15px #f15c3b9a;
     color: #FFFFFF;
+}
+
+.modal-content .tnks {
+    height: 25vh !important;
 }
